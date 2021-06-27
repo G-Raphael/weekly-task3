@@ -222,6 +222,39 @@ padding: 20px 0px 20px 0px;
     padding-right: 170px;
 
 }
+.last-cont-footer li a{
+    text-decoration: none;
+    color: hsl(270, 9%, 17%);
+}
 @media (max-width: 375px) {
-    
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+.contentafter-nav{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.frth-row{
+    display: flex;
+    flex-direction: column;  
+}
+.last-cont-footer{
+    display: flex;
+    flex-direction: column;
+}
+.snappy, .affordable, .people {
+    flex-wrap: wrap;
+}
+.snappy img, .affordable img, .people img{
+    position: absolute;
+    margin: 150px 0px 150px 0px;
+}
+.main-container{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
 }  
